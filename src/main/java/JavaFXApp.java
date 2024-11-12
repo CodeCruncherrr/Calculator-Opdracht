@@ -34,11 +34,11 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeMultiply (int number1, int number2) {
-        return 0;
+        return number1 * number2;
     }
 
     protected int computeDivide (int number1, int number2) {
-        return 0;
+        return number1 / number2;
     }
 
     private void compute (String operator) {
